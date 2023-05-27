@@ -1,0 +1,21 @@
+{
+  "name": "@mikrav/rex",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "rescript clean",
+    "build": "rescript build",
+    "watch": "rescript build -w"
+  },
+  "keywords": [
+    "ReScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "rescript": "11.0.0-beta.1"
+  },
+  "dependencies": {
+    "rescript-uws": "^0.1.1",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.25.0"
+  }
+}
